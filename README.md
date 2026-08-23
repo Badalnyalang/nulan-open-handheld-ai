@@ -1,4 +1,4 @@
-# Suno Sutra
+# Nulan
 
 Offline, voice-first, multilingual education assistant for the VYOMA Innovation Challenge.
 Khasi + Hindi general science Q&A for std 4-6, running fully on-device on a Jetson Orin Nano.

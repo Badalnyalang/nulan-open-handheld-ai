@@ -11,5 +11,3 @@
 
 NCERT content has a multi-year revision cycle, so the KB stays relevant without
 frequent re-curation.
-
-Place the actual data files here (not included in this skeleton).

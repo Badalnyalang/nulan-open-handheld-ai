@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Models / weights
+models/
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.onnx
+*.ckpt
+
+# Generated data
+outputs/
+audio/
+*.wav
+*.mp3
+*.flac
+
+# Vector indexes / caches
+*.faiss
+*.index
+.cache/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/

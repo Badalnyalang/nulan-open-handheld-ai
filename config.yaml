@@ -1,0 +1,28 @@
+asr:
+  model_dir: "./asr/checkpoints"
+  khasi_language_token: "cy"   # Welsh proxy token
+  hindi_onnx_path: "./asr/checkpoints/hi-conformer.onnx"
+  device: "cuda:0"
+  dtype: "float16"
+  num_beams: 1
+  max_new_tokens: 64
+
+lid:
+  model_path: "./lid/models/indiclid-ftr/model_baseline_roman.bin"
+  hindi_confidence_threshold: 0.85
+
+retrieval:
+  embed_model_dir: "./retrieval/ne-embed"
+  kb_index_path: "./kb/kb_index.npz"
+  kb_answers_path: "./kb/kb_answers.json"
+  device: "cpu"
+
+tts:
+  hindi_repo: "facebook/mms-tts-hin"
+  khasi_proxy_repo: "facebook/mms-tts-vie"
+  device: "cuda:0"
+  sample_rate: 24000
+
+audio:
+  input_device: null    # set to USB mic ALSA device string, e.g. "plughw:2,0"
+  output_device: "plughw:0,0"
